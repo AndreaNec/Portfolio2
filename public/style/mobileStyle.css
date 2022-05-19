@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px){
+    section{
+        overflow-x: hidden !important;
+    }
+    .mobile-col{
+        flex-direction: column;
+    }
+
+    .mobile-col-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .category{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .homegradient{
+        display: none;
+    }
+    .home{
+        background: url('/public/images/MobileHomeWallPaper.png') no-repeat center center/cover;;
+    }
+    .sidebar{
+        height: 100vh;
+    }
+    .glitch{
+        width: 100vw;
+        margin-top: 5em;
+        height: 85vh;
+
+    }
+    .home .j-spacebetween{
+        justify-content: flex-start;
+    }
+
+    .sidebar p{
+        padding: 0em 4em;
+        padding-bottom: 50em;
+        margin-right: -15em;
+    }
+    .sidebar h1{
+        padding: 0em 5em;
+        margin-right: -15em;
+        margin-top: 0.5em;
+    }
+    .gallery .h1B{
+        display: none;
+    }
+    .h1G{
+        display: block !important;
+    }
+    .astro{
+        width: 50vw !important; 
+        height: auto !important;
+    }
+    canvas{
+        margin-top: 50vh;
+        display: block;
+        width: 100vw;
+        overflow-x: visible;
+    }
+    .programming{
+
+    }
+    .program p{
+        padding: 1em;
+        padding-left: 4em !important;
+        width: 100vw;
+        font-size: 12px;
+        border: solid green;
+        margin-right: -0.5em;
+    }
+    .program h1{
+        margin-right: -0.5em;
+        padding: 1em;
+        width: 100vw;
+        padding-left: 2.5em !important;
+    }
+    .program{
+        height: 50vh;
+        z-index: 1;
+    }
+    .request{
+        display: none;
+    }
+}

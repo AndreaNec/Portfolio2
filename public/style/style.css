@@ -48,9 +48,10 @@ body {
 .logo{
     width: 6em;
     height: auto;
-    border: 0.5em solid black;
+    border: 0.6em solid black;
     border-radius: 50%;
 }
+
 
 nav{
     margin-left: 2em;
@@ -236,7 +237,7 @@ section{
     height: 60em;
 }
 
-.gallery h1{
+.gallery .h1B{
 
 
     width: 66px;
@@ -254,6 +255,10 @@ section{
 
     -webkit-text-stroke: 0.01px rgb(202, 202, 202);
 
+}
+
+.h1G{
+    display: none;
 }
 
 .button-gal{
