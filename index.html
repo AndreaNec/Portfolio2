@@ -16,13 +16,15 @@
         <img class="logo" src="/public/images/logo.png" alt="Logo">
     </nav>
     <section class="home col">
-        <canvas id="canvas3d" class="D-home"></canvas>
-        <script type="module">
-          import { Application } from './runtime.js';
-          const canvas = document.getElementById('canvas3d');
-          const app = new Application(canvas);
-          app.load('./scene.splinecode');
-        </script>
+        <div class="gradientH">
+            <canvas id="canvas3d" class="D-home"></canvas>
+            <script type="module">
+              import { Application } from './runtime.js';
+              const canvas = document.getElementById('canvas3d');
+              const app = new Application(canvas);
+              app.load('./scene.splinecode');
+            </script>
+        </div>
         <!-- <div class="homegradient flex col">
             <div class="textgradient">
                 <h1 class="textgradient_text">HELLO HELLO HELLO HELLO HELLO HELLO</h1>
