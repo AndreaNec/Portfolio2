@@ -71,12 +71,14 @@
         width: 100vw;
         font-size: 12px;
         margin-right: -0.5em;
+        line-height: 1.2em;
     }
     .program h1{
         margin-right: -0.5em;
         padding: 1em;
         width: 100vw;
         padding-left: 2.5em !important;
+        line-height: 2px;
     }
     .program{
         height: 50vh;
