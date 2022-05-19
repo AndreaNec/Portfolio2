@@ -49,6 +49,7 @@
         display: none;
     }
     .h1G{
+        margin-top: 0.5em;
         display: block !important;
     }
     .astro{
