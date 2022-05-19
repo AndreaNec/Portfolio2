@@ -39,9 +39,11 @@
         padding: 0em 4em;
         padding-bottom: 50em;
         margin-right: -15em;
+        width: 100vw;
     }
     .sidebar h1{
         padding: 0em 5em;
+        width: 100vw;
         margin-right: -15em;
         margin-top: 0.5em;
     }

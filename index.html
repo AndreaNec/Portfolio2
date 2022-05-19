@@ -16,8 +16,14 @@
         <img class="logo" src="/public/images/logo.png" alt="Logo">
     </nav>
     <section class="home col">
-        <div class="homegradient flex col">
-        <!-- Hello text -->
+        <canvas id="canvas3d" class="D-home"></canvas>
+        <script type="module">
+          import { Application } from './runtimeh.js';
+          const canvas = document.getElementById('canvas3d');
+          const app = new Application(canvas);
+          app.load('./sceneh.splinecode');
+        </script>
+        <!-- <div class="homegradient flex col">
             <div class="textgradient">
                 <h1 class="textgradient_text">HELLO HELLO HELLO HELLO HELLO HELLO</h1>
             </div>
@@ -47,7 +53,7 @@
             </div>
             <div class="textgradient">
                 <h1 class="textgradient_text">HELLO HELLO HELLO HELLO HELLO HELLO</h1>
-            </div>
+            </div> -->
             
         </div>
         <h1 class="category">
