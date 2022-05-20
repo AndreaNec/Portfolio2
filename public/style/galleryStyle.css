@@ -74,7 +74,6 @@ nav{
 }
 
 .Home{
-    background: linear-gradient(0deg, black, #212121);
     height: auto;
     width: 100%;
 }
@@ -93,4 +92,10 @@ nav{
 .fhome{
     width: 24vw;
     height: 100%;
+}
+
+.D-home{
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
 }

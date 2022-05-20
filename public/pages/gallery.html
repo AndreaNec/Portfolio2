@@ -54,6 +54,14 @@
                 <img src="/public/images/Gallery/NewOni.png" alt="">
             </div>
         </div>
+        <h1>3D gallery</h1>
+        <canvas id="canvas3d" class="D-home"></canvas>
+        <script type="module">
+          import { Application } from '../../runtime.js';
+          const canvas = document.getElementById('canvas3d');
+          const app = new Application(canvas);
+          app.load('../../scene.splinecode');
+        </script>
     </section>
 </body>
 
