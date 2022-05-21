@@ -33,9 +33,9 @@ img{
     gap:1em;
 }
 
-.grid{
+/* .grid{
     display: grid;
-}
+} */
 
 
 body {
@@ -74,28 +74,105 @@ nav{
 }
 
 .Home{
-    height: auto;
-    width: 100%;
+    background: url("/public/images/Gallery/GalleryWriting.png") no-repeat center center/cover;;
 }
 
-.grid-item{
+/* .grid-item{
     width: 24vw;
     height: 100%;
-}
+} */
 
-.ghome{
+/* .ghome{
     margin-top: 3em;
     grid-template-columns: 25vw 25vw 25vw 25vw;
     grid-auto-rows: minmax(100px, auto);
-}
+} */
 
-.fhome{
+/* .fhome{
     width: 24vw;
     height: 100%;
-}
+} */
 
 .D-home{
     height: 100vh;
     width: 100%;
     z-index: 2;
+}
+
+.GalleryWriting{
+    background: url('/public/images/Gallery/GalleryWriting.png') no-repeat center center/cover;;
+}
+
+.OniFeel{
+    background: url("/public/images/Gallery/oni\ feel\ bg.png")no-repeat center center/cover;
+}
+
+.Other{
+    background: url("/public/images/Gallery/other\ bg.png")no-repeat center center/cover;
+}
+
+.transparent-black{
+    background: rgba(0, 0, 0, 0.37);
+    height: 100vh;
+    width: 100%;
+}
+
+/*Button importato da style.css*/
+.button{
+    width: 296px;
+    height: 66px;
+    left: 275px;
+    top: 1733px;
+    color: white;
+    
+    background: #000000;
+    border-radius: 15px;
+    margin-left: 18em;
+    
+    font-weight: 300;
+}
+
+.button_white{
+    background: white;
+    height: 3em;
+    width: 3em;
+    border-radius: 10px;
+    margin-left: 1em;
+    flex: none;
+    
+}
+
+.arrow{
+    transform: rotateZ(-90deg);
+}
+
+.button:hover{
+    background: white;
+}
+
+
+.button:hover .button_white{
+    background: black;
+}
+
+.button:hover .TikTok{
+    color: #000000;
+}
+
+/*End*/
+
+.collectionButton{
+    margin: 0px;
+}
+
+.collectionName{
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+    
+    color: #FFFFFF;
+}
+
+.eye{
+    transform: rotateZ(180deg);
 }
