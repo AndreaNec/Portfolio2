@@ -33,9 +33,16 @@ img{
     gap:1em;
 }
 
+.gap2{
+    gap:3em;
+}
+
 .z-index-6{
-    position: absolute;
     z-index: 6;
+}
+
+.margin-left{
+    margin-left: 3em;
 }
 
 /* .grid{
@@ -45,8 +52,9 @@ img{
 
 body {
     overflow-x: hidden;
-    background-color: #212121;
+    background: url('../images/Gallery/OniFeel/OniFeelBody.svg') ;
     font-family: "roboto";
+
 }
 
 section{
@@ -69,61 +77,42 @@ nav{
     position: fixed;
     z-index: 10;
 }
-.Home h1{
-    color: white;
-    font-size: 64px;
-    font-weight: 400;
-    width: 100%;
-    text-align: center;
-    margin-top: 1.5em;
+
+.art-piece{
+    height: 90vh;
+    width: auto;
 }
 
-.Home{
-    background: url("/public/images/Gallery/GalleryWriting.png") no-repeat center center/cover;;
+.art-writing{
+    height: 90vh;
+    width: 32em;
 }
 
-/* .grid-item{
-    width: 24vw;
-    height: 100%;
-} */
-
-/* .ghome{
-    margin-top: 3em;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-auto-rows: minmax(100px, auto);
-} */
-
-/* .fhome{
-    width: 24vw;
-    height: 100%;
-} */
-
-.D-home{
-    position: relative;
-    display: block;
-    height: 100vh;
-    width: 100%;
-    z-index: -1;
-
+.art-writing h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #E6E6E6;
 }
 
-
-
-.OniFeel{
-    background: url("/public/images/Gallery/oni\ feel\ bg.png")no-repeat center center/cover;
+.art-writing hr{
+    width: 32em;
+    border: 3px solid #E6E6E6;
+    margin: 2em 0em;
 }
 
-.Other{
-    background: url("/public/images/Gallery/other\ bg.png")no-repeat center center/cover;
+.art-writing p{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    color: #E6E6E6;
+    width: 28em;
 }
 
-.transparent-black{
-    background: rgba(0, 0, 0, 0.37);
-    height: 100vh;
-    width: 100%;
-}
-
-/*Button importato da style.css*/
 .button{
     width: 296px;
     height: 66px;
@@ -169,17 +158,9 @@ nav{
 
 .collectionButton{
     margin: 0px;
-}
-
-.collectionName{
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 116px;
-    
-    color: #FFFFFF;
+    margin-top: 4em;
 }
 
 .eye{
     transform: rotateZ(180deg);
 }
-
