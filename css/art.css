@@ -1,0 +1,104 @@
+h1{
+    font-family: 'ONE DAY';
+    font-style: normal;
+
+    color: white;
+}
+
+
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+}
+
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*Home button*/
+
+.home-icon{
+    color: white;
+    font-size: 50px;
+    margin-left: 21vw;
+}
+
+.home-go-to{
+    height: 51vh;
+    width: 26vw;
+
+    border-radius: 50%;
+    margin-left: -16vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+
+    position: fixed;
+
+    right: 91vw;
+    top: 25%;
+
+    transition: 500ms;
+
+}
+
+.home-go-to:hover{
+    height: 58vh;
+    width: 28vw;
+    transition: 500ms;
+    right: 89vw;
+    top: 22%;
+}
+
+
+
+/* Drawings*/
+
+.infinite{
+    height: auto;
+}
+
+.galleyTitle{
+    font-size: 48px;
+
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
+}

@@ -62,20 +62,33 @@ a{
 /*mid circles*/
 .circle{
     border-radius: 50%;
+
+    position: relative;
+    z-index: 6;
 }
 
 .circle1{
-    height: 30em;
-    width: 30em;
+    height: 480px;
+    width: 480px;
 
     border: 8px solid #FFFFFF;
+
+    flex: none;
+
+    position: relative;
+    z-index: 6;
 }
 
 .circle2{
-    height: 26em;
-    width: 26em;
+    height: 430px;
+    width: 430px;
 
     border: 5px solid #FFFFFF;
+
+    flex: none;
+
+    position: relative;
+    z-index: 6;
 }
 
 /*AN writing*/
@@ -133,9 +146,12 @@ a{
 }
 
 .block{
-    height: 42vh;
-    width: 21vw;
-    overflow-y: hidden;
+    height: 430px;
+    width: 430px;
+    overflow: hidden;
+
+    position: relative;
+    z-index: 6;
 }
 
 canvas {
@@ -153,4 +169,50 @@ canvas {
     height: 58vh;
     width: 28vw;
     transition: 500ms;
+}
+
+@media screen and (max-width: 1400px) {
+    .artPortfolio-writing h1{
+        font-size: 80px;
+    }
+
+    .ANPortfolio h1{
+        font-size: 80px;
+    }
+    
+    .ANPortfolio h1 span{
+        font-size: 54px;
+    }
+
+    .circle1{
+        transform: scale(-200px);
+    }
+
+    .circle2{
+        transform: scale(-200px);
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .artPortfolio-writing h1{
+        font-size: 60px;
+    }
+
+    .ANPortfolio h1{
+        font-size: 60px;
+    }
+    
+    .ANPortfolio h1 span{
+        font-size: 34px;
+    }
+
+    .circle1{
+        transform: scale(-200px);
+    }
+
+    .circle2{
+        transform: scale(-200px);
+        height: 400px;
+    }
 }

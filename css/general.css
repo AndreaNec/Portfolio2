@@ -58,3 +58,7 @@ section{
 .column{
     flex-direction: column;
 }
+
+.warp{
+    flex-wrap: wrap;
+}
