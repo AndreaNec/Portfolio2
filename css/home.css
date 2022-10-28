@@ -25,8 +25,11 @@ a{
 }
 
 .profile-go-to{
-    height: 51vh;
-    width: 26vw;
+    --height:51vh;
+    --width:26vw;
+
+    height: var(--height);
+    width: var(--width);
 
     border-radius: 50%;
     margin-left: -16vw;
@@ -48,8 +51,11 @@ a{
 }
 
 .brush-go-to{
-    height: 51vh;
-    width: 26vw;
+    --height:51vh;
+    --width:26vw;
+
+    height: var(--height);
+    width: var(--width);
 
     border-radius: 50%;
     margin-right: -16vw;
@@ -146,8 +152,8 @@ a{
 }
 
 .block{
-    height: 430px;
-    width: 430px;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 
     position: relative;
@@ -156,7 +162,7 @@ a{
 
 canvas {
     border-radius: 50%;
-    
+    object-fit: cover;
   }
 
 .AnNec:hover .profile-go-to{
@@ -194,25 +200,133 @@ canvas {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
     .artPortfolio-writing h1{
         font-size: 60px;
+        line-height: 40px;
+
+        transition: 500ms;
+    }
+
+    .artPortfolio-writing h1 span{
+        font-size: 34px;
+
+        transition: 500ms;
     }
 
     .ANPortfolio h1{
         font-size: 60px;
+        line-height: 40px;
+
+        transition: 500ms;
     }
-    
+        
     .ANPortfolio h1 span{
-        font-size: 34px;
+        font-size: 34px; 
+
+        transition: 500ms;
+    }
+
+    .ANPortfolio h2{
+        font-size: 16px;
+        line-height: 40px;
+
+        transition: 500ms;
     }
 
     .circle1{
-        transform: scale(-200px);
+        height: 380px;
+        width: 380px;
+    
+        transition: 500ms;
     }
 
     .circle2{
-        transform: scale(-200px);
-        height: 400px;
+        height: 330px;
+        width: 330px; 
+        
+        transition: 500ms;
     }
+
+    
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .artPortfolio-writing h1{
+        font-size: 60px;
+        line-height: 40px;
+
+        transition: 500ms;
+    }
+
+    .artPortfolio-writing h1 span{
+        font-size: 34px;
+
+        transition: 500ms;
+    }
+
+    
+    .artPortfolio-writing h1{
+        text-align: center;
+    }
+
+    .ANPortfolio{
+        text-align: center;
+        
+    }
+
+    .ANPortfolio h1{
+        font-size: 60px;
+        line-height: 40px;
+
+        transition: 500ms;
+    }
+        
+    .ANPortfolio h1 span{
+        font-size: 34px; 
+
+        transition: 500ms;
+    }
+
+    .ANPortfolio h2{
+        font-size: 16px;
+        line-height: 40px;
+
+        transition: 500ms;
+    }
+
+    .circle1{
+        height: 180px;
+        width: 180px;
+    
+        transition: 500ms;
+    }
+
+    .circle2{
+        height: 130px;
+        width: 130px; 
+        
+        transition: 500ms;
+    }
+
+    .profile-go-to{
+        margin-top: 2vh;
+
+        width: 0px;
+        height: 0px;
+
+        border: 0px;
+    }
+
+
+    .brush-go-to{
+        margin-left: 0px;
+        margin-bottom: 2vh;
+
+        width: 0px;
+        height: 0px;
+        
+        border: 0px;
+    }
+  }

@@ -101,4 +101,14 @@ a{
 		--num-cols: 2;
 		--row-height: 200px;
 	}
+    
+    .home-go-to{
+        width: 25px;
+        height: 25px;
+
+        border: 0px;
+
+        position: absolute;
+    }
+
 }
