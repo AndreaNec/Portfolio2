@@ -544,25 +544,41 @@ p{
     margin: 1em;
     margin-left: 0em;
 
+    width: 50vw;
+
     transition: 500ms;
 }
 
+.question-item p{
+
+    line-height: 1.8em;
+}
+
+
+#question02{
+    max-height: 8.4em;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
 /* open question*/
 
 #question01:target{
-    max-height: 10em;
+    max-height: 30em;
 
     transition: 500ms;
 }
 
 #question02:target{
-    max-height: 10em;
+    max-height: 20em;
 
     transition: 500ms;
 }
 
 #question03:target{
-    max-height: 10em;
+    max-height: 20em;
 
     transition: 500ms;
 }
