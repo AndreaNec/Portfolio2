@@ -16,12 +16,16 @@ a{
     text-decoration: none;
 }
 
+/*Section background*/
+
 /* Portfolio go to section*/
 
 .profile-icon{
     color: white;
     font-size: 50px;
     margin-left: 21vw;
+
+    position: relative;
 }
 
 .profile-go-to{
@@ -39,6 +43,7 @@ a{
 
     transition: 500ms;
 
+    position: relative;
 }
 
 
@@ -235,15 +240,15 @@ canvas {
     }
 
     .circle1{
-        height: 380px;
-        width: 380px;
+        height: 300px;
+        width: 300px;
     
         transition: 500ms;
     }
 
     .circle2{
-        height: 330px;
-        width: 330px; 
+        height: 250px;
+        width: 250px; 
         
         transition: 500ms;
     }

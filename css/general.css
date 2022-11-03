@@ -4,6 +4,8 @@
     overflow-x: hidden;
 
     scroll-behavior: smooth;
+
+    position: initial;
 }
 
 html{
@@ -61,6 +63,11 @@ section{
 
 .warp{
     flex-wrap: wrap;
+}
+
+.z3{
+    position: initial;
+    z-index: 3;
 }
 
 @media only screen and (max-width: 768px) {
