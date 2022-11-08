@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+
+    position: initial;
+}
+
+html{
+    display: block;
+}
+
+@font-face {
+    font-family: 'ONE DAY';
+    src: url("/font/ONEDAY.otf") format("opentype");
+}
+
+
+section{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1B1B1B;
+    overflow-y: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap1{
+    gap: 5em;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.warp{
+    flex-wrap: wrap;
+}
+
+.z3{
+    position: initial;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .column-mobile {
+        flex-direction: column;
+    }
+  }

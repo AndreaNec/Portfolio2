@@ -1,0 +1,803 @@
+
+/*gaps*/
+
+.gap1{
+    gap: 5em;
+}
+.gap2{
+    gap: 5em;
+}   
+
+
+/* general font*/
+h1{
+    font-family: 'ONE DAY';
+    font-style: normal;
+    color: white;
+}
+
+h2 span {
+    font-weight: 600;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+
+p{
+    font-family: "Roboto";
+    font-size: 23px;
+
+    color: #FFFFFF;
+}
+
+
+/* nothing go to section*/
+
+.nothing-icon{
+    color: white;
+    font-size: 50px;
+    margin-left: 21vw;
+}
+
+.nothing-go-to{
+    height: 51vh;
+    width: 26vw;
+
+    border-radius: 50%;
+    margin-left: -16vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+
+    position: fixed;
+
+    right: 91vw;
+
+    transition: 500ms;
+
+}
+
+.nothing-go-to:hover{
+    height: 58vh;
+    width: 28vw;
+    transition: 500ms;
+    right: 89vw;
+}
+
+
+/* Home go to section*/
+
+.home-icon{
+    color: white;
+    font-size: 50px;
+    margin-left: 1.8vw;
+}
+
+.home-go-to{
+    height: 51vh;
+    width: 26vw;
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    
+    position: fixed;
+
+    left: 91vw;
+    top: 25%;
+
+    transition: 500ms;
+}
+
+.home-go-to:hover{
+    height: 58vh;
+    width: 28vw;
+    transition: 500ms;
+    left: 89vw;
+    top: 22%;
+}
+
+.imgMyself img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.imgMyself{
+    margin-top: 10em;
+}
+
+/*font styling "info"*/
+
+.info{
+    width: 32vw;
+}
+
+.info h1{
+    font-size: 48px;
+
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.info hr{
+    width: 71px;
+    border: 6px solid #FFFFFF;
+
+    margin-bottom: 3vh;
+}
+
+/* second section styling*/
+
+.convertParagraph{
+    width: 35vw;
+    height: auto;
+
+}
+
+.desktop-icon{
+    color: white;
+    font-size: 72px;
+}
+
+.firstP{
+    margin-bottom: 2.5vh;
+    line-height: 1.8em;
+}
+
+.secondP{
+    margin-top: 6.5vh;
+    line-height: 1.8em;
+}
+
+/*Parte dell'elenco*/
+
+.iconText{
+    gap: 3em
+}
+
+.iconText h3{
+    font-size: 23px;
+}
+
+/*elenco*/
+
+.elementoElenco{
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+}
+
+.ellipse-icon{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.elencoP{
+    margin-left: 1em;
+}
+
+/*Left part*/
+
+.CatchPhrase{
+    width: 35vw;
+}
+
+.CatchPhrase h1{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.CatchPhrase h1 span{
+    font-weight: 500;
+}
+
+.CatchPhrase hr{
+    width: 71px;
+    margin-left: 2.5em;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+
+    border: 6px solid #FFFFFF;
+}
+
+.CatchPhrase h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.CatchPhrase h2 span{
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/* Work progress*/
+
+/*writings*/
+
+.workTitle{
+    width:75vw;
+    font-size: 64px;
+}
+
+.workLine{
+    margin: 2.5em;
+    width: 71px;
+    border: 5px solid #FFFFFF;
+    margin-right: 68vw;
+}
+
+
+/*Table*/
+
+.wrapperSteps{
+    gap: 1em;
+    width: 75vw;
+    height: 80vh;
+}
+
+.wrapperSteps p{
+    color: #232323;
+}
+
+.wrapperSteps h1{
+    font-size: 96px;
+
+    color: #232323;
+}
+
+.wrapperSteps h2{
+    font-size: 48px;
+
+    color: #232323;
+}
+
+/* STEPS STYLING*/
+
+.step01{
+    width: 20vw;
+    height: 70vh;
+
+    position: relative;
+    
+    background-color: #D9D9D9;
+
+    transition: 1000ms;
+}
+
+.steps02-03{
+    overflow-y: hidden;
+
+    height: 70vh;
+}
+
+.step02{
+    width: 35vw;
+    height: 36vh;
+
+    position: relative;
+    
+    background-color: #D9D9D9;
+
+    transition: 1000ms;
+}
+
+.step03{
+    width: 35vw;
+    height: 36vh;
+
+    margin-top: 1.2em;
+
+    position: relative;
+    
+    background-color: #D9D9D9;
+
+    transition: 1000ms;
+}
+
+.step04{
+    width: 20vw;
+    height: 70vh;
+
+    position: relative;
+
+    background-color: #D9D9D9;
+
+    transition: 1000ms;
+    
+    direction: rtl;
+    
+}
+
+/*STEPS ELEMENTS STYLING*/
+
+.X-icon{
+    font-size: 50px;
+    color: #232323;
+
+}
+
+.X{
+    position: absolute;
+    display: none;
+}
+
+.wrapperSteps h1{
+    padding: 1rem;
+}
+
+.wrapperSteps h2{
+    padding-left: 1rem;
+}
+
+.wrapperSteps p{
+    padding: 1rem;
+    display: none;
+}
+
+.step04 h2{
+    padding-right: 1rem;
+}
+
+
+
+/*ANIMATIONS OF THE STEPS*/
+
+
+.step01:target{
+    width: 75vw;
+    height: 70vh;
+
+    position: absolute;
+
+    z-index: 7;
+
+    transition: 1000ms;
+}
+
+/*Element animation*/
+
+.step01:target .X{
+    left: 95%;
+    top: 3%;
+    display: block;
+}
+
+.step01:target p{
+    display: block;
+}
+
+
+.step02:target{
+    width: 75vw;
+    height: 70vh;
+
+    position: absolute;
+
+    z-index: 7;
+
+    margin-left: -20.4vw;
+
+    transition: 1000ms;
+    
+}
+
+/*Element animation*/
+
+.step02:target .X{
+    left: 95%;
+    top: 3%;
+    display: block;
+}
+
+.step02:target p{
+    display: block;
+}
+
+.step03:target{
+    width: 75vw;
+    height: 70vh;
+
+    position: absolute;
+
+    z-index: 7;
+
+    margin-left: -20.4vw;
+    margin-top: 0em;
+
+    transition: 1000ms;
+    
+}
+
+/*Element animation*/
+
+.step03:target .X{
+    left: 95%;
+    top: 3%;
+    display: block;
+}
+
+.step03:target p{
+    display: block;
+}
+
+
+.step04:target{
+    width: 75vw;
+    height: 70vh;
+
+    right: 11.8%;
+
+
+    position: absolute;
+
+    z-index: 7;
+
+    margin-left: -75vw;
+}
+
+/*Element animation*/
+
+.step04:target .X{
+    right: 95%;
+    top: 3%;
+    display: block;
+
+    scroll-snap-type: none;
+}
+
+.step04:target p{
+    display: block;
+
+    scroll-snap-type: none;
+}
+
+.Step-Text4{
+    width: auto;
+    height: auto;
+
+    scroll-behavior: smooth;
+}
+
+
+/*WEB PORTFOLIO*/
+
+.portfolioTitle{
+    width: 70vw;
+    font-size: 64px;
+    
+    text-align: center;
+}
+
+
+.portfolioWork{
+    width: 70vw;
+
+    overflow: visible;
+}
+
+.website-work{
+    height: 60vh;
+
+    padding: 1em;
+    
+    transition: 300ms;
+}
+
+.website-work h2{
+    font-size: 2vw;
+
+    margin-bottom: 0.5em;
+
+    text-transform: uppercase;
+}
+
+.website-screenshot{
+    width: 30vw;
+    height: 40vh;
+
+    overflow: hidden;
+}
+
+.website-screenshot img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.disclaimer-website{
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.website-work:hover{
+    scale: 1.1;
+
+    transition: 300ms;
+}
+
+
+
+
+
+/* FAQ SECTION */
+.FAQtitle{
+    width: 70vw;
+    font-size: 64px;
+    margin-bottom: 1em;
+}
+
+.FAQsection{
+    width: 60vw;
+
+    overflow: hidden;
+}
+
+
+.FAQelement{
+
+}
+
+.FAQelement::before{
+    content: "";
+
+    width: 36px;
+    height: 5px;
+
+    position: absolute;
+
+    margin-top: 3.5em;
+    margin-right: 20em;
+    margin-left: -2em;
+
+    background-color: #C9C9C9;
+
+
+
+}
+
+.FAQelement h1{
+    font-size: 40px;
+
+    padding: 1rem;
+
+    transition: 400ms;
+}
+
+.FAQelement p{
+    padding: 1rem;
+}
+
+.FAQelement .separate-line{
+    color: #D9D9D9;
+    width: 790px;
+
+    transition: 800ms;
+}
+
+.question-item{
+    max-height: 5.8em;
+    overflow-y: hidden;
+
+    margin: 1em;
+    margin-left: 0em;
+
+    width: 50vw;
+
+    transition: 500ms;
+}
+
+.question-item p{
+
+    line-height: 1.8em;
+}
+
+
+#question02{
+    max-height: 8.4em;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* open question*/
+
+#question01:target{
+    max-height: 30em;
+
+    transition: 500ms;
+}
+
+#question02:target{
+    max-height: 20em;
+
+    transition: 500ms;
+}
+
+#question03:target{
+    max-height: 20em;
+
+    transition: 500ms;
+}
+
+/* question hover animation*/
+
+.question-item:hover h1{
+    font-size: 48px;
+
+    transition: 400ms;
+}
+
+.question-item:hover hr{
+    width: 1157px;
+
+    transition: 800ms;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    p{
+        font-size: 18px;
+    }
+
+    .info h1{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    p{
+        font-size: 12px;
+    }
+
+    /*fixed positions*/
+    .home-go-to{
+        width: 25px;
+        height: 25px;
+
+        border: 0px;
+
+        position: absolute;
+    }
+
+    .nothing-go-to{
+        width: 0px;
+        height: 0px;
+        
+        border: 0px;
+    }
+    /* 1st section*/
+
+    .info{
+        width: 80vw;
+        height: 45vh;
+
+        margin: 0px;
+    }
+
+    .info h1{
+        font-size: 26px;
+
+        margin: 0px;
+
+
+    }
+
+    .info h2{
+        font-size: 18px;
+    }
+
+    .info h3{
+        font-size: 18px;
+    }
+
+
+    /*img */
+
+    .imgMyself{
+        width: 70vw;
+        height: auto;
+        margin-top: 4vh;
+    }
+
+    .imgMyself img{
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    /*2 section*/
+
+    .CatchPhrase{
+        width: 90vw;
+    }
+    
+    .CatchPhrase h1{
+        font-size: 32px;
+    }
+    
+    .CatchPhrase h1 span{
+        font-weight: 500;
+    }
+
+    /*bottom part*/
+
+    .convertParagraph{
+        width: 95vw;
+    }
+    
+    .desktop-icon{
+        font-size: 55px;
+    }
+    
+
+    /*elenco*/
+
+    .elementoElenco{
+        margin-top: 0.8em;
+        margin-bottom: 0.2em;
+    }
+
+    .ellipse-icon{
+        font-size: 10px;
+    }
+    
+    .elencoTesto h3{
+        font-size: 18px;
+    }
+
+    .workTitle{
+        font-size: 32px;
+    }
+
+    .wrapperSteps h1{
+        font-size: 32px;
+    }
+
+    .wrapperSteps h2{
+        width: 0px;
+        height: 0px;
+    }
+
+    .X-icon{
+        font-size: 18px;
+    }
+
+    .FAQtitle{
+        font-size: 32px;
+    }
+
+    .FAQelement h1{
+        font-size: 26px;
+    }
+
+    .question-item{
+        max-height: 4em;
+    }
+  }
