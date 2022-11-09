@@ -499,7 +499,7 @@ p{
 }
 
 .website-work{
-    height: 60vh;
+    height: auto;
 
     padding: 1em;
     
@@ -507,7 +507,7 @@ p{
 }
 
 .website-work h2{
-    font-size: 2vw;
+    font-size: 32px;
 
     margin-bottom: 0.5em;
 
@@ -516,7 +516,7 @@ p{
 
 .website-screenshot{
     width: 30vw;
-    height: 40vh;
+    height: auto;
 
     overflow: hidden;
 }
@@ -799,5 +799,9 @@ a:-webkit-any-link {
 
     .question-item{
         max-height: 4em;
+    }
+
+    .website-screenshot{
+        width: 80vw;
     }
   }
